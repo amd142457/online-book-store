@@ -1,0 +1,249 @@
+/* BookBorrowingBanner.module.css */
+
+.wrapper {
+  width: 100%;
+  height: 100%;
+}
+
+.banner {
+  position: relative;
+  background: #0c0f1a;
+  height: 100%;
+
+  overflow: hidden;
+  padding: 60px 60px;
+  display: flex;
+  align-items: center;
+
+  font-family: Georgia, "Times New Roman", serif;
+}
+
+/* Background dot grid */
+.grid {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background-image:
+    linear-gradient(rgba(245, 163, 44, 0.04) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(245, 163, 44, 0.04) 1px, transparent 1px);
+  background-size: 48px 48px;
+}
+
+/* Decorative circles */
+.circle1 {
+  position: absolute;
+  right: -80px;
+  top: -80px;
+  width: 480px;
+  height: 480px;
+  border-radius: 50%;
+  border: 1px solid rgba(245, 163, 44, 0.06);
+  pointer-events: none;
+}
+
+.circle2 {
+  position: absolute;
+  right: -30px;
+  top: -30px;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  border: 1px solid rgba(245, 163, 44, 0.05);
+  pointer-events: none;
+}
+
+/* Main flex row */
+.layout {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  position: relative;
+  z-index: 1;
+  gap: 28px;
+}
+
+/* ── Copy (left) ── */
+.copy {
+  flex: 1;
+  min-width: 0;
+}
+
+.badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: rgba(245, 163, 44, 0.1);
+  border: 1px solid rgba(245, 163, 44, 0.22);
+  color: #f5a32c;
+  border-radius: 100px;
+  padding: 6px 16px;
+  font-size: 10px;
+  font-family: -apple-system, Arial, sans-serif;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin-bottom: 24px;
+}
+
+.dot {
+  width: 6px;
+  height: 6px;
+  background: #f5a32c;
+  border-radius: 50%;
+  flex-shrink: 0;
+  animation: blink 2s infinite;
+}
+
+@keyframes blink {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.35;
+  }
+}
+
+.heading {
+  font-size: 42px;
+  font-weight: 700;
+  line-height: 1.08;
+  color: #ffffff;
+  margin: 0 0 18px;
+  letter-spacing: -1.5px;
+}
+
+.accent {
+  font-style: italic;
+  color: #f5a32c;
+}
+
+.desc {
+  font-family: -apple-system, Arial, sans-serif;
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.45);
+  line-height: 1.75;
+  margin: 0 0 32px;
+  font-weight: 400;
+  max-width: 320px;
+}
+
+/* ── Buttons ── */
+.buttons {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.btnPrimary {
+  background: #f5a32c;
+  color: #0c0f1a;
+  border: none;
+  padding: 13px 26px;
+  border-radius: 10px;
+  font-size: 13px;
+  font-weight: 600;
+  font-family: -apple-system, Arial, sans-serif;
+  cursor: pointer;
+  letter-spacing: 0.4px;
+  transition:
+    transform 0.15s,
+    background 0.15s;
+}
+
+.btnPrimary:hover {
+  transform: translateY(-2px);
+  background: #fbbf50;
+}
+
+.btnPrimary:active {
+  transform: scale(0.97);
+}
+
+.btnSecondary {
+  background: transparent;
+  color: rgba(255, 255, 255, 0.7);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  padding: 13px 26px;
+  border-radius: 10px;
+  font-size: 13px;
+  font-family: -apple-system, Arial, sans-serif;
+  cursor: pointer;
+  transition:
+    border-color 0.15s,
+    color 0.15s;
+}
+
+.btnSecondary:hover {
+  border-color: rgba(255, 255, 255, 0.4);
+  color: #ffffff;
+}
+
+/* ── Stats row ── */
+.stats {
+  display: flex;
+  gap: 24px;
+  margin-top: 32px;
+  padding-top: 24px;
+  border-top: 1px solid rgba(255, 255, 255, 0.07);
+}
+
+.stat {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.statNum {
+  font-size: 20px;
+  font-weight: 700;
+  color: #ffffff;
+  font-family: Georgia, serif;
+}
+
+.statAccent {
+  color: #f5a32c;
+}
+
+.statLabel {
+  font-size: 10px;
+  color: rgba(255, 255, 255, 0.3);
+  font-family: -apple-system, Arial, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+}
+
+/* ── Shelf illustration (right) ── */
+.shelfWrap {
+  width: 230px;
+  height: 285px;
+  flex-shrink: 0;
+}
+
+.shelfSvg {
+  display: block;
+}
+
+/* ── Responsive ── */
+@media (max-width: 640px) {
+  .banner {
+    padding: 36px 24px;
+    min-height: unset;
+  }
+
+  .layout {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .shelfWrap {
+    width: 180px;
+    height: 220px;
+    align-self: center;
+  }
+
+  .heading {
+    font-size: 30px;
+  }
+}
