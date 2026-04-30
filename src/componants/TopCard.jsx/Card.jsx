@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import Link from "next/link";
 
 const Card = ({ photo }) => {
   console.log(photo);
@@ -35,9 +36,12 @@ const Card = ({ photo }) => {
               </span>
             </div>
 
-            <button className="px-4 py-2 bg-[#f5a32c] text-white rounded-lg transition-all duration-300 hover:bg-blue-700 hover:scale-105">
-              Borrow
-            </button>
+            <Link
+              href={`/AllPhoto/${photo.id}`}
+              className="px-4 py-2 bg-[#f5a32c] text-white rounded-lg transition-all duration-300 hover:bg-blue-700 hover:scale-105"
+            >
+              details
+            </Link>
           </div>
         </div>
       </div>
