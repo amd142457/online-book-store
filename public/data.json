@@ -1,0 +1,201 @@
+[
+  {
+    "id": 1,
+    "title": "পথের পাঁচালী",
+    "author": "বিভূতিভূষণ বন্দ্যোপাধ্যায়",
+    "description": "গ্রামীণ জীবনের সংগ্রাম ও শৈশবের আবেগঘন গল্প।",
+    "category": "Story",
+    "available_quantity": 5,
+    "image_url": "https://covers.openlibrary.org/b/id/8235081-L.jpg"
+  },
+
+  {
+    "id": 2,
+    "title": "দেবদাস",
+    "author": "শরৎচন্দ্র চট্টোপাধ্যায়",
+    "description": "অপূর্ণ প্রেম ও আত্মধ্বংসের করুণ কাহিনি।",
+    "category": "Story",
+    "available_quantity": 4,
+    "image_url": "https://covers.openlibrary.org/b/id/8231996-L.jpg"
+  },
+
+  {
+    "id": 3,
+    "title": "লালসালু",
+    "author": "সৈয়দ ওয়ালীউল্লাহ",
+    "description": "ধর্ম ও ক্ষমতার অপব্যবহার নিয়ে লেখা শক্তিশালী গল্প।",
+    "category": "Story",
+    "available_quantity": 6,
+    "image_url": "https://covers.openlibrary.org/b/id/10521230-L.jpg"
+  },
+
+  {
+    "id": 4,
+    "title": "হাজার বছর ধরে",
+    "author": "জহির রায়হান",
+    "description": "গ্রামীণ প্রেম ও সমাজ পরিবর্তনের গল্প।",
+    "category": "Story",
+    "available_quantity": 5,
+    "image_url": "https://covers.openlibrary.org/b/id/10521231-L.jpg"
+  },
+
+  {
+    "id": 5,
+    "title": "নকশী কাঁথার মাঠ",
+    "author": "জসীমউদ্দীন",
+    "description": "গ্রামবাংলার প্রেম ও বিচ্ছেদের কাব্যিক গল্প।",
+    "category": "Story",
+    "available_quantity": 7,
+    "image_url": "https://covers.openlibrary.org/b/id/10521232-L.jpg"
+  },
+
+  {
+    "id": 6,
+    "title": "হিমু সমগ্র",
+    "author": "হুমায়ূন আহমেদ",
+    "description": "অদ্ভুত জীবনদর্শনের এক রহস্যময় চরিত্রের গল্প।",
+    "category": "Story",
+    "available_quantity": 6,
+    "image_url": "https://covers.openlibrary.org/b/id/10521235-L.jpg"
+  },
+
+  {
+    "id": 7,
+    "title": "ফেলুদা সমগ্র",
+    "author": "সত্যজিৎ রায়",
+    "description": "গোয়েন্দা ফেলুদার রহস্য সমাধানের রোমাঞ্চকর কাহিনি।",
+    "category": "Story",
+    "available_quantity": 8,
+    "image_url": "https://covers.openlibrary.org/b/id/10521234-L.jpg"
+  },
+
+  {
+    "id": 8,
+    "title": "Atomic Habits",
+    "author": "James Clear",
+    "description": "ছোট অভ্যাস কিভাবে বড় পরিবর্তন আনে তার গাইড।",
+    "category": "Tech",
+    "available_quantity": 5,
+    "image_url": "https://covers.openlibrary.org/b/id/10594765-L.jpg"
+  },
+
+  {
+    "id": 9,
+    "title": "Deep Work",
+    "author": "Cal Newport",
+    "description": "গভীর মনোযোগ দিয়ে কাজ করার কৌশল শেখায়।",
+    "category": "Tech",
+    "available_quantity": 4,
+    "image_url": "https://covers.openlibrary.org/b/id/8374156-L.jpg"
+  },
+
+  {
+    "id": 10,
+    "title": "Clean Code",
+    "author": "Robert C. Martin",
+    "description": "সুন্দর ও কার্যকর কোড লেখার নিয়ম শেখায়।",
+    "category": "Tech",
+    "available_quantity": 3,
+    "image_url": "https://covers.openlibrary.org/b/id/9615326-L.jpg"
+  },
+
+  {
+    "id": 11,
+    "title": "Zero to One",
+    "author": "Peter Thiel",
+    "description": "নতুন কিছু তৈরি করার চিন্তা ও ব্যবসার ধারণা।",
+    "category": "Tech",
+    "available_quantity": 5,
+    "image_url": "https://covers.openlibrary.org/b/id/8370226-L.jpg"
+  },
+
+  {
+    "id": 12,
+    "title": "The Lean Startup",
+    "author": "Eric Ries",
+    "description": "স্টার্টআপ গড়ার আধুনিক পদ্ধতি ও কৌশল।",
+    "category": "Tech",
+    "available_quantity": 4,
+    "image_url": "https://covers.openlibrary.org/b/id/7260001-L.jpg"
+  },
+
+  {
+    "id": 13,
+    "title": "Think and Grow Rich",
+    "author": "Napoleon Hill",
+    "description": "সফলতা অর্জনের মানসিকতা ও কৌশল শেখায়।",
+    "category": "Tech",
+    "available_quantity": 6,
+    "image_url": "https://covers.openlibrary.org/b/id/8226191-L.jpg"
+  },
+
+  {
+    "id": 14,
+    "title": "The Subtle Art of Not Giving a F*ck",
+    "author": "Mark Manson",
+    "description": "জীবনে গুরুত্বপূর্ণ বিষয়গুলোকে প্রাধান্য দেওয়ার শিক্ষা।",
+    "category": "Tech",
+    "available_quantity": 5,
+    "image_url": "https://covers.openlibrary.org/b/id/8369251-L.jpg"
+  },
+
+  {
+    "id": 15,
+    "title": "Sapiens",
+    "author": "Yuval Noah Harari",
+    "description": "মানবজাতির ইতিহাস ও বিবর্তনের বিশ্লেষণ।",
+    "category": "Science",
+    "available_quantity": 4,
+    "image_url": "https://covers.openlibrary.org/b/id/8370221-L.jpg"
+  },
+
+  {
+    "id": 16,
+    "title": "A Brief History of Time",
+    "author": "Stephen Hawking",
+    "description": "সময় ও মহাবিশ্ব নিয়ে সহজ ব্যাখ্যা।",
+    "category": "Science",
+    "available_quantity": 3,
+    "image_url": "https://covers.openlibrary.org/b/id/240726-L.jpg"
+  },
+
+  {
+    "id": 17,
+    "title": "Cosmos",
+    "author": "Carl Sagan",
+    "description": "মহাবিশ্ব ও মানুষের অবস্থান নিয়ে আলোচনা।",
+    "category": "Science",
+    "available_quantity": 5,
+    "image_url": "https://covers.openlibrary.org/b/id/8370229-L.jpg"
+  },
+
+  {
+    "id": 18,
+    "title": "The Selfish Gene",
+    "author": "Richard Dawkins",
+    "description": "জীববিজ্ঞান ও বিবর্তনের ধারণা ব্যাখ্যা।",
+    "category": "Science",
+    "available_quantity": 4,
+    "image_url": "https://covers.openlibrary.org/b/id/8231991-L.jpg"
+  },
+
+  {
+    "id": 19,
+    "title": "Brief Answers to the Big Questions",
+    "author": "Stephen Hawking",
+    "description": "বড় বৈজ্ঞানিক প্রশ্নের সহজ উত্তর।",
+    "category": "Science",
+    "available_quantity": 3,
+    "image_url": "https://covers.openlibrary.org/b/id/8952234-L.jpg"
+  },
+
+  {
+    "id": 20,
+    "title": "Astrophysics for People in a Hurry",
+    "author": "Neil deGrasse Tyson",
+    "description": "সহজভাবে মহাবিশ্ব বোঝার একটি বই।",
+    "category": "Science",
+    "available_quantity": 5,
+    "image_url": "https://covers.openlibrary.org/b/id/8168691-L.jpg"
+  }
+]
