@@ -1,9 +1,8 @@
 import AuthCard from "@/componants/imageAuth/authCard";
 import Card from "@/componants/TopCard.jsx/Card";
+import photos from "../../data/data.json";
 
-const AllCard = async () => {
-  const res = await fetch("http://localhost:3000/data.json");
-  const photos = await res.json();
+const AllCard = () => {
   return (
     <div className="w-11/12 mx-auto mt-10">
       <div>
