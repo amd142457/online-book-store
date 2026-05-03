@@ -3,18 +3,35 @@ import React from "react";
 import Image from "next/image";
 
 const AUTHORS = [
-  { name: "বিভূতিভূষণ", image: "https://picsum.photos/id/64/200/200" },
-  { name: "শরৎচন্দ্র", image: "https://picsum.photos/id/91/200/200" },
-  { name: "রবীন্দ্রনাথ", image: "https://picsum.photos/id/177/200/200" },
-  { name: "জহির রায়হান", image: "https://picsum.photos/id/40/200/200" },
-  { name: "জসীমউদ্দীন", image: "https://picsum.photos/id/338/200/200" },
-  { name: "James Clear", image: "https://picsum.photos/id/1005/200/200" },
-  { name: "Robert Martin", image: "https://picsum.photos/id/1006/200/200" },
-  { name: "Yuval Harari", image: "https://picsum.photos/id/1012/200/200" },
-  { name: "হুমায়ূন আহমেদ", image: "https://picsum.photos/id/1025/200/200" },
   {
-    name: "সুনীল গঙ্গোপাধ্যায়",
-    image: "https://picsum.photos/id/1074/200/200",
+    image:
+      "https://images.unsplash.com/photo-1581344895000-b5deedbd1660?w=500&q=80",
+    author: "William Shakespeare",
+  },
+  {
+    image:
+      "https://images.unsplash.com/photo-1719257727556-e68b4aa5582d?w=500&q=80",
+    author: "Jane Austen",
+  },
+  {
+    image:
+      "https://images.unsplash.com/photo-1719257727556-e68b4aa5582d?w=500&q=80",
+    author: "Charles Dickens",
+  },
+  {
+    image:
+      "https://images.unsplash.com/photo-1567273948088-86fb7c53e6ed?w=500&q=80",
+    author: "Leo Tolstoy",
+  },
+  {
+    image:
+      "https://images.unsplash.com/photo-1576504677598-49a46e4b7abb?w=500&q=80",
+    author: "Fyodor Dostoevsky",
+  },
+  {
+    image:
+      "https://images.unsplash.com/photo-1643296783622-87d9160020df?w=500&q=80",
+    author: "Ernest Hemingway",
   },
 ];
 
@@ -28,7 +45,7 @@ function AuthCard() {
         .marquee-track {
           display: flex;
           gap: 32px;
-          animation: marquee-scroll 28s linear infinite;
+          animation: marquee-scroll 20s linear infinite;
           width: max-content;
         }
         .marquee-track:hover {
@@ -95,7 +112,7 @@ function AuthCard() {
                 <div className="author-circle">
                   <Image
                     src={author.image}
-                    alt={author.name}
+                    alt={author.author}
                     width={80}
                     height={80}
                     style={{

@@ -4,6 +4,7 @@ import { useState } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { authClient } from "@/lib/auth-client";
+import SearchBox from "./Search";
 
 const NAV_LINKS = [
   { label: "Home", href: "/" },
@@ -70,7 +71,7 @@ function LandingPage() {
         </ul>
 
         {/* Search */}
-        <button className="nb-search">🔍 Search books...</button>
+        <SearchBox></SearchBox>
 
         {/* Desktop Auth */}
         <div className="nb-actions">

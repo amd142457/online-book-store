@@ -88,10 +88,11 @@ const RegisterForm = () => {
           }}
         >
           <Image
-            src="https://www.google.com/favicon.ico"
+            src="https://images.unsplash.com/photo-1678483789107-6402b5848d95?w=500&q=80"
             alt="Google"
-            width={20}
-            height={20}
+            width={30}
+            height={30}
+            className="rounded-full"
           />
           Continue with Google
         </button>

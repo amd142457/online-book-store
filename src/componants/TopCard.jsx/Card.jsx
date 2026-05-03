@@ -16,7 +16,7 @@ const Card = ({ photo }) => {
       {/* ── Image ── */}
       <div className="overflow-hidden relative">
         <Image
-          src="https://images.unsplash.com/photo-1644229945516-bdece78b5939"
+          src={photo.img}
           width={500}
           height={400}
           alt={photo.title}
