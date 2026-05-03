@@ -1,10 +1,9 @@
 import Image from "next/image";
+import photos from "../../../data/data.json";
 
 const page = async ({ params }) => {
   const resolvedParams = await params;
 
-  const res = await fetch("http://localhost:3000/data.json");
-  const photos = await res.json();
   const item = photos.find((i) => String(i.id) === String(resolvedParams.id));
 
   return (
@@ -28,7 +27,7 @@ const page = async ({ params }) => {
             {/* Book cover */}
             <div className="w-40 h-52 overflow-hidden rounded-xl mb-5 relative">
               <Image
-                src="https://images.unsplash.com/photo-1644229945516-bdece78b5939"
+                src={item.img}
                 width={500}
                 height={400}
                 alt={item.title}
