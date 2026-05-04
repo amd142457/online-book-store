@@ -6,8 +6,9 @@ const client = new MongoClient(process.env.MONGODB_URI);
 const db = client.db("online-store");
 
 export const auth = betterAuth({
+  baseURL: process.env.BETTER_AUTH_URL, // ← এটা add করুন
+  secret: process.env.BETTER_AUTH_SECRET, // ← এটা add করুন
   database: mongodbAdapter(db, {
-    // Optional: if you don't provide a client, database transactions won't be enabled.
     client,
   }),
   emailAndPassword: {
